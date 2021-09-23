@@ -1,0 +1,279 @@
+* {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+}
+
+input {
+    border-radius: 5px;
+    font-size: 110%;
+    background-color: white;
+}
+
+input:focus {
+    border-radius: 5px;
+    border-color: #3693FF;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #FED800;
+    text-shadow: 0.1em 0.1em #333;
+    text-align: center;
+}
+
+h2 {
+    color: #FED800;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    width: 150px;
+    border-radius: 5px;
+    font-size: 100%;
+}
+
+.bt-connexion {
+    border-color: #3693FF;
+    background-color: #3693FF;
+    color: white;
+}
+
+.bt-connexion:hover {
+    background-color: #1b60af;
+    border-color: #1b60af;
+    color: white;
+}
+
+.bt-reset {
+    border-color: #FDC107;
+    background-color: #FDC107;
+    color: black;
+}
+
+.bt-reset:hover {
+    background-color: #be9108;
+    color: black;
+    border-color: #be9108;
+}
+
+.motdepasse {
+    margin-top: 15px;
+}
+
+.motdepasse input {
+    width: 100%;
+}
+
+#type_mise {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+hr.dashed {
+    border-top: 3px dashed #bbb;
+}
+
+.bt-jouer {
+    background-color: #4AAF4F;
+    color: black;
+    border-color: #4AAF4F;
+}
+
+.bt-jouer:hover {
+    background-color: #235825;
+    color: black;
+    border-color: #235825;
+}
+
+.inscription {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#input-mise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#jouer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    color: red;
+    font-weight: bold;
+}
+
+.bt-deco {
+    text-decoration: none;
+    background-color: #E90A0C;
+    color: white;
+    border-color: #E90A0C;
+    float: right;
+}
+
+.bt-deco:hover {
+    background-color: #751516;
+    color: white;
+    border-color: #751516;
+}
+
+.bt-stat {
+    text-decoration: none;
+    background-color: #E90A0C;
+    color: white;
+    border-color: #E90A0C;
+    float: left;
+}
+
+.bt-stat:hover {
+    background-color: #751516;
+    color: white;
+    border-color: #751516;
+}
+
+#inscription:hover {
+    color: #FED800;
+}
+
+#deconnexion {
+    text-decoration: none;
+}
+
+#form_mise {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nom input {
+    width: 100%;
+}
+
+#mise_sur_nombre {
+    float: left;
+}
+
+#mise_sur_parite {
+    float: right;
+}
+
+#input_nombre {
+    width: 5;
+}
+
+• #jouer {
+    padding-top: 200px;
+}
+
+h3 {
+    color: #FED800;
+}
+
+label {
+    color: #FED800;
+}
+
+#rb-paire,
+#rb-impaire {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+#input-nombre {
+    width: 150px;
+    display: block;
+    text-align: center;
+}
+
+#input-argent {
+    margin: 0 auto;
+    width: 150px;
+    display: block;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    padding: 5px;
+    background-color: black;
+    color: #fff;
+    width: 100%;
+}
+
+#footer {
+    color: #fff;
+    background-color: black;
+}
+
+#input_mise {
+    padding-bottom: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: #004F47;
+    margin: 0px;
+}
+
+div#type_mise>div {
+    text-align: center;
+    width: 50%;
+}
+
+div#type_mise>div h2 {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+div#type_mise>div:nth-child(1) {
+    border-right: solid black 1px;
+}
+
+div#radio-button>div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div#radio-button {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div#jouer {
+    padding-top: 50px;
+}
+
+input#input-nombre {
+    margin: 0 auto;
+}
